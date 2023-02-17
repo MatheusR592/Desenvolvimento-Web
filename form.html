@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscrição no Estágio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <img src="IFAL.png" alt="Logo do IFAL" width="100px" height="100px" id="logo"> 
+            <h1>Inscrição no Estágio</h1>
+            
+        </div>
+
+        <div class="box">
+            <h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" id="nome" name="firstname" placeholder="Nome completo">
+                    <br><br>
+                     <label for="nome">Email:</label>
+                    <br>
+                     <input type="text" id="email" name="email" placeholder="texto@gmail.com">
+                    <br><br>
+                     <label for="nome">Telefone:</label>
+                    <br>
+                     <input type="text" id="telefone" name="telefone" placeholder="82901234567">
+                    <br><br>
+                     <label for="nome">Área de Interesse:</label>
+                    <br>
+                     <select id="area_de_interesse" name="area_de_interesse">
+                         <option value="web_developer">Web Developer</option>
+                     </select>
+                    <br><br>
+                    Sexo:
+                    <h3>
+                     <input type="radio" id="masculino" name="sexo"> <label for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="sexo"> <label for="feminino">Feminino</label>
+                     <input type="radio" id="outro" name="sexo"> <label for="outro">Outro</label>
+                    </h3>
+                    <br>
+                     Skills: <br>
+                    <h3>
+                        <input type="checkbox" id="html" name="html" value="html">
+                         <label for="html">HTML</label><br>
+                        <input type="checkbox" id="css" name="css" value="css">
+                         <label for="css">CSS</label><br>
+                        <input type="checkbox" id="js" name="js" value="js">
+                         <label for="js">JavaScript</label><br>
+                        <input type="checkbox" id="bootstrap" name="bootstrap" value="bootstrap">
+                         <label for="bootstrap">BootStrap</label>
+                    </h3>
+                    <br>
+                    Comentários: <br>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar">
+                </form> 
+            </h2>
+        </div>
+
+    </body>
+
+</html>
